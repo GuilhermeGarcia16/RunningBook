@@ -1,0 +1,69 @@
+<html>
+<head>
+<title> Home </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="place">
+		<nav class="nav">
+			<ul>
+				<a href="#"><li>Página Inicial</li></a>
+				<li>&nbsp;</li>
+				<a href="#"><li>Conexões</li></a>
+				<li>&nbsp;</li>
+				<a href="#"><li>Configurações</li></a>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>Buscar</li>
+				<li><input type="text" name="buscar" size="30" placeholder="Procure amigos,grupos,interesses..."></li>
+				<li><img src="busca.png" width="23px"></li>
+			</ul>		
+		</nav>	
+	<div class="photo">
+		<img src="perfil.jpg" width="120px" height="129px">
+	</div>
+	<div class="info">
+		<table>
+		<tr>
+			<td> Nome: </td>
+			<td class="data"> Guilherme </td>
+		</tr>
+		<tr>
+			<td> Cidade: </td>
+			<td class="data"> Viamão </td>
+		</tr>
+		<tr>
+			<td> Peso: </td>
+			<td class="data"> 60.0 kg </td>
+		</tr>
+		<tr>
+			<td> Altura: </td>
+			<td class="data"> 1.66m </td>
+		</tr>
+		</table>
+	</div>
+	<a href="#" id="square">
+		<div class="window01">  
+			<h3> Frame 1 </h3>
+		</div>
+	</a>
+
+	<a href="#" id="square">
+	<div class="window02">  
+	<h3> Frame 2 </h3>
+	</div>
+	</a>
+
+	<a href="#" id="square">
+	<div class="window03">  
+	<h3> Frame 3 </h3>
+	</div>
+	</a>
+	
+	<a href="#" id="square">
+	<div class="window04">  
+	<h3> Frame 4 </h3>
+	</div>
+	</a>
+</div>
+</body>
+</html>
